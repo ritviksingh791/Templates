@@ -48,6 +48,7 @@ void dfs(vvi & adj, int u, vi& path, vi& out_degree)
 
 void solve()
 {
+    //De Bruijn Sequence
     int m;
     cin>>m;
     if(m==1)

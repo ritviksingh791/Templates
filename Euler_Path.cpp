@@ -48,6 +48,7 @@ void dfs(vvi & adj, int u, vi& path, vi& out_degree)
 
 void solve()
 {
+    // Euler Path
     int n,m;
     cin>>n>>m;
     vi in_degree(n+1,0);
